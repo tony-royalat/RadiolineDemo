@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Page3" BorderWidth="0" ImageId="2aece3d3-a197-40aa-9d72-6ff86e6572c5" ImageScaling="Fit">
+  <Layers>
+    <Layer />
+  </Layers>
+  <Size>
+    <Width>800</Width>
+    <Height>480</Height>
+  </Size>
+  <MarginColorString>#FF000000</MarginColorString>
+  <AvailableSecurityScope>Always</AvailableSecurityScope>
+  <AvailableSecurityScopeOperator>Equal</AvailableSecurityScopeOperator>
+  <AvailableSecurityScopeLevel>0</AvailableSecurityScopeLevel>
+  <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+</HmiPage>

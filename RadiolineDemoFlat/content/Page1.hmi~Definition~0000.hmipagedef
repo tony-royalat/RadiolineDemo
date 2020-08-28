@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Page1" BorderWidth="0" ImageId="7ffa47cc-85a8-4a27-8563-53fccba6a88a" ImageScaling="Fit">
+  <References>
+    <Variables>
+      <Variable Id="4effa300-b754-4ce3-80bf-33aeb45a1cbc" Name="RSSIdata" DataType="LREAL" />
+    </Variables>
+    <Documents>
+      <Document Id="19f8bb3d-1f36-499f-b985-2f06896e5359" NodeType="HmiSymbol" Name="Radial Gauge" />
+    </Documents>
+  </References>
+  <Layers>
+    <Layer>
+      <Objects>
+        <HmiObject xsi:type="SymbolInstance" Rotation="0" ID="RSSI_Graph" IsTabSelectable="false" TabOrder="0">
+          <Origin>
+            <X>613.99999999999955</X>
+            <Y>9.9999999999999947</Y>
+          </Origin>
+          <Location>
+            <X>389.37762162325589</X>
+            <Y>0.053621623084950443</Y>
+          </Location>
+          <TransformCenter>
+            <X>224.62237837674368</X>
+            <Y>9.9463783769150442</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Scale>
+            <Height>0.82886486485883426</Height>
+            <Width>0.82886486485883426</Width>
+          </Scale>
+          <SymbolId>19f8bb3d-1f36-499f-b985-2f06896e5359</SymbolId>
+          <Parameters>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="9bc59a9e-2795-4e72-848c-3003567fb1dc">
+              <Source xmlns:q1="http://www.w3.org/2001/XMLSchema" xsi:type="q1:string">#FF00FF00</Source>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="17bf0782-8085-4b02-aab5-ccc16d5d0f41">
+              <Source xmlns:q2="http://www.w3.org/2001/XMLSchema" xsi:type="q2:string">#FF00FF00</Source>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="1f960ec9-4e2d-4fde-baf5-b423f880fc61">
+              <Source xmlns:q3="http://www.w3.org/2001/XMLSchema" xsi:type="q3:double">100</Source>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="968f4775-2634-4b7d-9989-63a4589646de">
+              <Source xmlns:q4="http://www.w3.org/2001/XMLSchema" xsi:type="q4:double">10</Source>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="4843a9af-4b51-4bc2-8901-8d538fb670f3">
+              <Source xmlns:q5="http://www.w3.org/2001/XMLSchema" xsi:type="q5:string">RSSI</Source>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="f5824cee-4fd1-440f-88b4-5afa9ffe9c88">
+              <Source xmlns:q6="http://www.w3.org/2001/XMLSchema" xsi:type="q6:double">100</Source>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingVariable" ParameterID="e4a012ac-d565-4e5e-a7e0-1a0ca7d6a5f1">
+              <SourceInstance>
+                <Id>4effa300-b754-4ce3-80bf-33aeb45a1cbc</Id>
+              </SourceInstance>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="518ff940-a238-4510-81a3-c40180e2f792">
+              <Source xmlns:q7="http://www.w3.org/2001/XMLSchema" xsi:type="q7:double">12</Source>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="6d736bd0-6557-400e-a0c6-bde7a1536fe8">
+              <Source xmlns:q8="http://www.w3.org/2001/XMLSchema" xsi:type="q8:double">10</Source>
+            </Parameter>
+            <Parameter xsi:type="ParameterBindingProperty" ParameterID="22f840ee-342b-4439-a14e-a81a08e92205">
+              <Source xmlns:q9="http://www.w3.org/2001/XMLSchema" xsi:type="q9:string">#FFFF0000</Source>
+            </Parameter>
+          </Parameters>
+        </HmiObject>
+      </Objects>
+    </Layer>
+  </Layers>
+  <Size>
+    <Width>800</Width>
+    <Height>480</Height>
+  </Size>
+  <MarginColorString>#FF000000</MarginColorString>
+  <AvailableSecurityScope>Always</AvailableSecurityScope>
+  <AvailableSecurityScopeOperator>Equal</AvailableSecurityScopeOperator>
+  <AvailableSecurityScopeLevel>0</AvailableSecurityScopeLevel>
+  <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+</HmiPage>

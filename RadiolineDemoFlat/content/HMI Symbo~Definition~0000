@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Symbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HMI Symbol">
+  <Objects>
+    <HmiObject xsi:type="LinearScale" Rotation="0" ID="RSSI_Scale" IsTabSelectable="false" TabOrder="0" IsObjectLocked="true" NextId="2" LineColor="#FF3E3D40" LineWidth="1" Text="" FontFamily="Arial" FontSize="12" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" StartLineEndType="None" EndLineEndType="None" StartLineEndSize="Medium" EndLineEndSize="Medium" PathType="PolylinePath" ScaleMaximum="100" ScaleMinimum="0" MajorTickInterval="10" MinorTickCount="1" MajorTickWidth="1" MinorTickWidth="1" MajorTickLength="10" MinorTickLength="5" MajorTickOffset="0" MinorTickOffset="0" LabelOffset="12" LabelPlacement="Right" LabelOrientation="Horizontal">
+      <Origin>
+        <X>63.499999999999943</X>
+        <Y>63.5</Y>
+      </Origin>
+      <Location>
+        <X>0</X>
+        <Y>5.6843418860808015E-14</Y>
+      </Location>
+      <TransformCenter>
+        <X>63.499999999999943</X>
+        <Y>63.499999999999943</Y>
+      </TransformCenter>
+      <EnableSecurityScope>Always</EnableSecurityScope>
+      <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+      <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+      <VisibleSecurityScope>Always</VisibleSecurityScope>
+      <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+      <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+      <DashStyle>
+        <Offset>0</Offset>
+        <Dashes />
+      </DashStyle>
+      <SubPaths IsClosed="false">
+        <Start>
+          <X>31.749999999999957</X>
+          <Y>118.4926131403118</Y>
+        </Start>
+        <Segments xsi:type="ArcPathSegment">
+          <End>
+            <X>95.249999999999929</X>
+            <Y>118.49261314031182</Y>
+          </End>
+          <Center>
+            <X>63.499999999999943</X>
+            <Y>63.499999999999943</Y>
+          </Center>
+          <Radius>63.5</Radius>
+          <StartAngle>120</StartAngle>
+          <SweepAngle>300</SweepAngle>
+        </Segments>
+      </SubPaths>
+      <ScaleType>Radial</ScaleType>
+    </HmiObject>
+  </Objects>
+</Symbol>

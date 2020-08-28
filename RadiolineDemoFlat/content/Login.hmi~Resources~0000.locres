@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="541a5751-fd58-4c6a-8786-4a2b1a0d24d3" Name="useridLabel.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="User" />
+  </Resources>
+  <Resources ID="c7a3f3aa-b174-4384-9a9f-6e3a422b255b" Name="passwordLabel.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Password" />
+  </Resources>
+  <Resources ID="af683e15-f836-4742-aae3-f52ad37747a5" Name="username.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="977cb11c-d197-48d1-ba59-1cdccde4ccd4" Name="login.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Log In" />
+  </Resources>
+  <Resources ID="7c82c9d2-4dfa-462a-adf4-f62752143f2d" Name="cancel.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Cancel" />
+  </Resources>
+  <Resources ID="1276a1fb-efba-4762-b412-b4cec3f108b1" Name="password.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
+  <Resources ID="e9e11a79-f5b4-44c1-91f0-9a139246df48" Name="Text1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Text" />
+  </Resources>
+</ResourcesDocument>

@@ -1,0 +1,6 @@
+{ CustomGroupDefinition('184de154-61a7-477f-80ab-32453d93bb64', '') }
+
+VAR_EXTERNAL
+    SignalStrengthVoltage : LREAL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('dce6c90a-ba9e-41e0-8d52-c44dacd11fc8')};
+    SignalStrentghPercent : LREAL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('c062f380-987b-40d1-98d3-b9a317216495')};
+END_VAR
