@@ -2,8 +2,20 @@
 { CustomGroupDefinition('971398c9-e054-4349-a1d9-e00a1840c9f4', 'System Variables') }
 
 VAR_GLOBAL
-    SignalStrengthVoltage : LREAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('003be311-6fbf-4f8a-9238-0d3a16a4a26e')};
-    SignalStrentghPercent : LREAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d413070d-2f66-458d-a28c-9c2b37bd87f3')};
+    SignalStrentghPercent : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d413070d-2f66-458d-a28c-9c2b37bd87f3')};
+    CH1_OUT : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('0440ad38-e5a1-4e3d-8052-9e6997b71d68')};
+    SignalStrengthVoltage : REAL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('4878ad39-fa8d-49c3-b05d-005e4278683c')};
+    CH2_OUT : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('0163ec48-b6af-4e38-8349-bbcfd6dc5494')};
+    CH3_OUT : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b91b1c88-88a8-4af3-9899-4771fd847036')};
+    CH4_OUT : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('64309044-34b4-456d-94c9-98802f80b279')};
+    CH5_OUT : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('9833c641-f47b-4890-92ff-627fc988a382')};
+    CH6_OUT : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('09efdb80-625c-403a-8e52-cc72c6eb3ee6')};
+    CH7_OUT : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('33266553-8ed9-401e-8c09-f6a1122a13f9')};
+    CH8_OUT : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('cfb8f6ff-00e7-494f-bfda-763b01fa6886')};
+    CH1_IN : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('6ebe0fab-5396-48cf-8575-393e1c317851')};
+    CH2_IN : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('6df08394-1bf3-4a57-aaf0-0a173b3df063')};
+    CH3_IN : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('36ad9ad1-126e-48da-884e-1d0cf983bc17')};
+    CH4_IN : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('606f8c7f-5d02-4fe5-930e-6c2df42463ca')};
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('40e52303-9955-495b-95cc-5dfebc917867')}; (*Higher level PLC in RUN*)
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('5f8ced8a-4d12-412e-9a34-03f4ea69381c')}; (*Connection to Profinet-Controller*)
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('7aefdb8d-ec7c-463f-a9b6-1c32b11bcb8a')}; (*IOP status of the higher-level control system*)

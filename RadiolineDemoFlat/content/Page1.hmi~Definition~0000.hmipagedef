@@ -3,6 +3,7 @@
   <References>
     <Variables>
       <Variable Id="4effa300-b754-4ce3-80bf-33aeb45a1cbc" Name="RSSIdata" DataType="LREAL" />
+      <Variable Id="4aaf7e3e-30b0-4e3b-b51a-9000967897cb" Name="SignalStrentghPercent" DataType="REAL" />
     </Variables>
     <Documents>
       <Document Id="19f8bb3d-1f36-499f-b985-2f06896e5359" NodeType="HmiSymbol" Name="Radial Gauge" />
@@ -49,14 +50,14 @@
               <Source xmlns:q4="http://www.w3.org/2001/XMLSchema" xsi:type="q4:double">10</Source>
             </Parameter>
             <Parameter xsi:type="ParameterBindingProperty" ParameterID="4843a9af-4b51-4bc2-8901-8d538fb670f3">
-              <Source xmlns:q5="http://www.w3.org/2001/XMLSchema" xsi:type="q5:string">RSSI</Source>
+              <Source xmlns:q5="http://www.w3.org/2001/XMLSchema" xsi:type="q5:string">RSSI %</Source>
             </Parameter>
             <Parameter xsi:type="ParameterBindingProperty" ParameterID="f5824cee-4fd1-440f-88b4-5afa9ffe9c88">
               <Source xmlns:q6="http://www.w3.org/2001/XMLSchema" xsi:type="q6:double">100</Source>
             </Parameter>
             <Parameter xsi:type="ParameterBindingVariable" ParameterID="e4a012ac-d565-4e5e-a7e0-1a0ca7d6a5f1">
               <SourceInstance>
-                <Id>4effa300-b754-4ce3-80bf-33aeb45a1cbc</Id>
+                <Id>4aaf7e3e-30b0-4e3b-b51a-9000967897cb</Id>
               </SourceInstance>
             </Parameter>
             <Parameter xsi:type="ParameterBindingProperty" ParameterID="518ff940-a238-4510-81a3-c40180e2f792">

@@ -42,6 +42,27 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="6ebe0fab-5396-48cf-8575-393e1c317851" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH1_IN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH1_IN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="a4ce230c-86a8-4acf-a985-17a66d9b0808" SourceId="">
+        <IsReadOnly>True</IsReadOnly>
+        <DisplayName>CH1_IN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName" />
+      </Role>
     </Datum>
     <Datum Uuid="0af8bc64-1802-462e-93c9-8dfedcbcea43">
       <FunctionText />
@@ -55,6 +76,27 @@
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="6df08394-1bf3-4a57-aaf0-0a173b3df063" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH2_IN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH2_IN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="e252d989-c271-47ea-a378-aa058664d3bc" SourceId="">
+        <IsReadOnly>True</IsReadOnly>
+        <DisplayName>CH2_IN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName" />
       </Role>
     </Datum>
     <Datum Uuid="14bcdc56-4c2b-4703-ac4e-ac7cd25b296f">
@@ -70,6 +112,27 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="36ad9ad1-126e-48da-884e-1d0cf983bc17" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH3_IN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH3_IN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="6e32a9af-178d-4647-bff5-0c0090fc9dcd" SourceId="">
+        <IsReadOnly>True</IsReadOnly>
+        <DisplayName>CH3_IN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName" />
+      </Role>
     </Datum>
     <Datum Uuid="5609eecf-ff03-48af-a8fe-5a7fd8ebc472">
       <FunctionText />
@@ -83,6 +146,27 @@
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="606f8c7f-5d02-4fe5-930e-6c2df42463ca" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH4_IN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH4_IN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="f11494d3-bb67-4562-b81f-b6cbefc21a31" SourceId="">
+        <IsReadOnly>True</IsReadOnly>
+        <DisplayName>CH4_IN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName" />
       </Role>
     </Datum>
     <Datum Uuid="26ec1066-c6ff-46e1-8673-a0212b464820">
@@ -141,6 +225,30 @@
         <OutputFrameId>1</OutputFrameId>
       </Role>
     </Datum>
+    <Datum Uuid="90a25b16-caa6-4ba5-a4ec-9ff13640a816">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="d413070d-2f66-458d-a28c-9c2b37bd87f3" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>SignalStrentghPercent</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.SignalStrentghPercent</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="4aaf7e3e-30b0-4e3b-b51a-9000967897cb" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>SignalStrentghPercent</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
     <Datum Uuid="d5c2e945-966c-4004-95e7-84a0bb82323f">
       <FunctionText />
       <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=io8]" SourceId="b4f6be3e-4cd5-4706-8b14-230e96ce484a">
@@ -153,6 +261,27 @@
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="0440ad38-e5a1-4e3d-8052-9e6997b71d68" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH1_OUT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH1_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="39574bb8-b74b-4e44-8a52-dabf35355d91" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CH1_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="d57c5503-36b2-4e68-9b03-a95fc013569b">
@@ -168,6 +297,27 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="0163ec48-b6af-4e38-8349-bbcfd6dc5494" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH2_OUT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH2_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="f2b27366-9bbd-4e8d-b063-b9882d862edb" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CH2_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
     </Datum>
     <Datum Uuid="eb2bb1a5-ff80-48ed-a260-e244d37c72f2">
       <FunctionText />
@@ -181,6 +331,27 @@
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="b91b1c88-88a8-4af3-9899-4771fd847036" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH3_OUT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH3_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="88f84432-5a3b-4edc-96f8-39bea4ff3318" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CH3_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="6c6ee36d-2386-44a0-97aa-3e666367fa8e">
@@ -196,6 +367,27 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="64309044-34b4-456d-94c9-98802f80b279" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH4_OUT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH4_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="8ed20c07-3c33-47be-b72b-3e985ad30809" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CH4_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
     </Datum>
     <Datum Uuid="2a832683-cc22-412e-aea9-9be6f8398a56">
       <FunctionText />
@@ -209,6 +401,27 @@
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="9833c641-f47b-4890-92ff-627fc988a382" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH5_OUT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH5_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="2a01b5e9-a457-4ac4-9c53-5ca69f46dcbd" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CH5_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="2a7e8ae0-bbd5-4af9-b28e-b947cbc693db">
@@ -224,6 +437,27 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="09efdb80-625c-403a-8e52-cc72c6eb3ee6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH6_OUT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH6_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="c2ab069b-f64d-43e5-878c-7c2a556f55bc" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CH6_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
     </Datum>
     <Datum Uuid="c59e4008-116e-457d-9279-3d783d2a759f">
       <FunctionText />
@@ -238,6 +472,27 @@
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
       </Role>
+      <Role TypeName="Variable" ObjectId="33266553-8ed9-401e-8c09-f6a1122a13f9" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH7_OUT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH7_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="be92995b-274f-46ef-baa7-20d9a213b428" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CH7_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
     </Datum>
     <Datum Uuid="f47b7069-7699-4f53-8436-cbd9cf4715b3">
       <FunctionText />
@@ -251,6 +506,27 @@
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="cfb8f6ff-00e7-494f-bfda-763b01fa6886" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CH8_OUT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-1152 / PLC.CH8_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="e04d6064-64f2-4551-8a0b-343c1f6d1e2d" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CH8_OUT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="e81cbcfe-1981-4874-8ec0-f6f8ea6fca26">
@@ -280,12 +556,12 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="003be311-6fbf-4f8a-9238-0d3a16a4a26e" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+      <Role TypeName="Variable" ObjectId="4878ad39-fa8d-49c3-b05d-005e4278683c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
         <Name>SignalStrengthVoltage</Name>
         <Usage>Global</Usage>
-        <DataType>LREAL</DataType>
+        <DataType>REAL</DataType>
         <Address />
-        <InitValue>LREAL#0.0</InitValue>
+        <InitValue>REAL#0.0</InitValue>
         <IsRetain>False</IsRetain>
         <IsConstant>False</IsConstant>
         <IsOpc>False</IsOpc>
@@ -2494,34 +2770,22 @@
         <DisplayName>axc-f-1152 / aio-1 / IN02</DisplayName>
       </Role>
     </Datum>
-    <Datum Uuid="c7ec9400-6bb2-40d2-b196-23be49b86a82">
-      <FunctionText />
-      <Role TypeName="HmiTag" ObjectId="4effa300-b754-4ce3-80bf-33aeb45a1cbc" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>RSSIdata</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
-      </Role>
-      <Role TypeName="Variable" ObjectId="d413070d-2f66-458d-a28c-9c2b37bd87f3" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
-        <Name>SignalStrentghPercent</Name>
-        <Usage>Global</Usage>
-        <DataType>LREAL</DataType>
-        <Address />
-        <InitValue>LREAL#0.0</InitValue>
-        <IsRetain>False</IsRetain>
-        <IsConstant>False</IsConstant>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>axc-f-1152 / PLC.SignalStrentghPercent</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False">
+        <RoleDatumUuid>90a25b16-caa6-4ba5-a4ec-9ff13640a816</RoleDatumUuid>
+        <RoleDatumUuid>d5c2e945-966c-4004-95e7-84a0bb82323f</RoleDatumUuid>
         <RoleDatumUuid>6e45f064-6981-48ac-88eb-68c00ec94fde</RoleDatumUuid>
-        <RoleDatumUuid>c7ec9400-6bb2-40d2-b196-23be49b86a82</RoleDatumUuid>
+        <RoleDatumUuid>d57c5503-36b2-4e68-9b03-a95fc013569b</RoleDatumUuid>
+        <RoleDatumUuid>eb2bb1a5-ff80-48ed-a260-e244d37c72f2</RoleDatumUuid>
+        <RoleDatumUuid>6c6ee36d-2386-44a0-97aa-3e666367fa8e</RoleDatumUuid>
+        <RoleDatumUuid>2a832683-cc22-412e-aea9-9be6f8398a56</RoleDatumUuid>
+        <RoleDatumUuid>2a7e8ae0-bbd5-4af9-b28e-b947cbc693db</RoleDatumUuid>
+        <RoleDatumUuid>c59e4008-116e-457d-9279-3d783d2a759f</RoleDatumUuid>
+        <RoleDatumUuid>f47b7069-7699-4f53-8436-cbd9cf4715b3</RoleDatumUuid>
+        <RoleDatumUuid>7e8dc8dd-662b-4ffc-bc82-15939b9c8782</RoleDatumUuid>
+        <RoleDatumUuid>0af8bc64-1802-462e-93c9-8dfedcbcea43</RoleDatumUuid>
+        <RoleDatumUuid>14bcdc56-4c2b-4703-ac4e-ac7cd25b296f</RoleDatumUuid>
+        <RoleDatumUuid>5609eecf-ff03-48af-a8fe-5a7fd8ebc472</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>6c2cd1e7-1a67-4198-b265-7207b4c86def</RoleDatumUuid>

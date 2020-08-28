@@ -1,6 +1,18 @@
 { CustomGroupDefinition('184de154-61a7-477f-80ab-32453d93bb64', '') }
 
 VAR_EXTERNAL
-    SignalStrengthVoltage : LREAL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('dce6c90a-ba9e-41e0-8d52-c44dacd11fc8')};
-    SignalStrentghPercent : LREAL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('c062f380-987b-40d1-98d3-b9a317216495')};
+    SignalStrengthVoltage : REAL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('dce6c90a-ba9e-41e0-8d52-c44dacd11fc8')};
+    SignalStrentghPercent : REAL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('c062f380-987b-40d1-98d3-b9a317216495')};
+    CH1_OUT : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('e6990dc4-b111-46e5-aec3-3d11b75a6da7')};
+    CH2_OUT : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('df4fa260-3172-4fee-affd-79f653f60fac')};
+    CH3_OUT : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('7c0a2431-c957-4d7b-a4ce-6e3dbe668db1')};
+    CH4_OUT : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('06292552-78ad-45f5-9ca6-612abec99637')};
+    CH5_OUT : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('447e38e2-c93f-41a2-b8fb-b5e36eb68ba8')};
+    CH6_OUT : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('e144e5a6-650a-4179-ad61-3759a33bd6e6')};
+    CH7_OUT : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('2ca0589f-e8ea-472c-9cc6-514cbcc19153')};
+    CH8_OUT : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('4dcb4349-2c32-487f-aec4-aa8fa28e1d22')};
+    CH1_IN : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('aef6d8d7-c128-48a8-b45a-b702d12ad423')};
+    CH2_IN : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('b9c169c3-a8c5-4141-b4d0-730e02d9123d')};
+    CH3_IN : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('cc98e83d-fe90-453b-be4b-4857150d36f8')};
+    CH4_IN : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('1779a7dc-a0ea-4155-9340-866d14acfdf9')};
 END_VAR

@@ -1,4 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="2bf8f893-9fd4-4b98-a33a-4a0b37b1e817" Name="Button1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 1" />
+  </Resources>
+  <Resources ID="db0c43c4-bdfd-49b5-b0d1-03a4116df771" Name="Button1.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 1" />
+  </Resources>
+  <Resources ID="6b6b901b-60c0-49a5-99cf-9d25b1deb560" Name="Button2.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 2" />
+  </Resources>
+  <Resources ID="bd7e6034-d869-46c0-8050-a370795843ba" Name="Button2.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 2" />
+  </Resources>
+  <Resources ID="26a36c7b-50aa-4983-8ac0-1fc93663c684" Name="Button3.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 3" />
+  </Resources>
+  <Resources ID="8f243c7b-0a91-48cb-8119-f41bc50f1c9a" Name="Button3.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 3" />
+  </Resources>
+  <Resources ID="40123cec-a45a-47e1-ac3a-996d42b6667a" Name="Button4.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 4" />
+  </Resources>
+  <Resources ID="7ad63b21-26d0-4bc0-bee5-4bb275b7b4ad" Name="Button4.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 4" />
+  </Resources>
+  <Resources ID="f3627f6c-2b23-46da-b449-44fd3fcc4585" Name="Button5.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 5" />
+  </Resources>
+  <Resources ID="8000282f-83a3-4283-98e5-ca07d6cf2595" Name="Button5.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 5" />
+  </Resources>
+  <Resources ID="e64582ff-5efc-48b6-b568-2cbd8f3b3ba9" Name="Button6.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 6" />
+  </Resources>
+  <Resources ID="cc6c3b4a-ac05-4ad4-ba87-ab400ab782d4" Name="Button6.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 6" />
+  </Resources>
+  <Resources ID="8bf11c20-522b-45bb-ac09-d4c3a9366837" Name="Button7.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 7" />
+  </Resources>
+  <Resources ID="bee5bba4-4d9e-4741-b011-4ea06be5b56e" Name="Button7.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 7" />
+  </Resources>
+  <Resources ID="b8df5998-564b-42ec-ac3d-da18ff80e998" Name="Button8.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 8" />
+  </Resources>
+  <Resources ID="fa10f2e2-3c2a-42d5-8480-22e79f144273" Name="Button8.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Out 8" />
+  </Resources>
+  <Resources ID="7e3f2a8e-f554-44de-a583-e8b925a423a6" Name="Text1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="In 1" />
+  </Resources>
+  <Resources ID="4c09ac04-8772-4d3d-a12b-f1351942c453" Name="Text2.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="In 2" />
+  </Resources>
+  <Resources ID="7a1fe2ab-8589-4265-a620-7ea3623744a4" Name="Text3.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="In 3" />
+  </Resources>
+  <Resources ID="67e41a3f-c77a-4dd1-93ba-1ea1768bf5d5" Name="Text4.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="In 4" />
+  </Resources>
 </ResourcesDocument>
