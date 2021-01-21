@@ -6,10 +6,6 @@
       <Variable Id="e252d989-c271-47ea-a378-aa058664d3bc" Name="CH2_IN" DataType="BOOL" />
       <Variable Id="6e32a9af-178d-4647-bff5-0c0090fc9dcd" Name="CH3_IN" DataType="BOOL" />
       <Variable Id="f11494d3-bb67-4562-b81f-b6cbefc21a31" Name="CH4_IN" DataType="BOOL" />
-      <Variable Id="5dc73b19-4a44-41d1-bc82-7fbd2bcac175" Name="CH5_IN" DataType="BOOL" />
-      <Variable Id="0496212b-0c6b-4ccd-9531-23c9a64f175b" Name="CH6_IN" DataType="BOOL" />
-      <Variable Id="88f2ead0-2acf-4c65-85da-5d4b6c736ced" Name="CH7_IN" DataType="BOOL" />
-      <Variable Id="1a47b56b-7364-466b-b806-135136124e97" Name="CH8_IN" DataType="BOOL" />
       <Variable Id="39574bb8-b74b-4e44-8a52-dabf35355d91" Name="CH1_OUT" DataType="BOOL" />
       <Variable Id="f2b27366-9bbd-4e8d-b063-b9882d862edb" Name="CH2_OUT" DataType="BOOL" />
       <Variable Id="88f84432-5a3b-4edc-96f8-39bea4ff3318" Name="CH3_OUT" DataType="BOOL" />
@@ -19,9 +15,6 @@
       <Variable Id="be92995b-274f-46ef-baa7-20d9a213b428" Name="CH7_OUT" DataType="BOOL" />
       <Variable Id="e04d6064-64f2-4551-8a0b-343c1f6d1e2d" Name="CH8_OUT" DataType="BOOL" />
     </Variables>
-    <Documents>
-      <Document Id="cf976797-e4be-4ba2-a13d-9627f222493e" NodeType="HmiSymbol" Name="Radio Button" />
-    </Documents>
   </References>
   <Layers>
     <Layer>
@@ -665,6 +658,45 @@
             <Width>60.99999999999995</Width>
             <Height>40</Height>
           </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="NextButton_Page3" IsTabSelectable="true" TabOrder="0" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Next" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+          <Origin>
+            <X>685</X>
+            <Y>415</Y>
+          </Origin>
+          <Location>
+            <X>685</X>
+            <Y>415</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="NavigateDownAction" Gesture="Click" ID="A0" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>100</Width>
+            <Height>50</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
         </HmiObject>
       </Objects>
     </Layer>

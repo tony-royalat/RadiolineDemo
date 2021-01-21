@@ -40,30 +40,30 @@
               <file name="Variables.hmivar" id="Login.hmi~Variables~0000.hmivar" />
               <file name="Definition.hmipagedef" id="Login.hmi~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="Login.hmi~Parameters~0000.hmiparams" />
-              <file name="Resources.locres" id="Login.hmi~Resources~0000.locres" />
+              <file name="Definition.hmipagedef.locres" id="Login.hmi~Definition~0001.locres" />
             </folder>
             <folder name="Page1.hmi">
               <file name="Definition.hmipagedef" id="Page1.hmi~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="Page1.hmi~Parameters~0000.hmiparams" />
-              <file name="Resources.locres" id="Page1.hmi~Resources~0000.locres" />
+              <file name="Definition.hmipagedef.locres" id="Page1.hmi~Definition~0001.locres" />
               <file name="Variables.hmivar" id="Page1.hmi~Variables~0000.hmivar" />
             </folder>
             <folder name="Page2.hmi">
               <file name="Definition.hmipagedef" id="Page2.hmi~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="Page2.hmi~Parameters~0000.hmiparams" />
-              <file name="Resources.locres" id="Page2.hmi~Resources~0000.locres" />
+              <file name="Definition.hmipagedef.locres" id="Page2.hmi~Definition~0001.locres" />
               <file name="Variables.hmivar" id="Page2.hmi~Variables~0000.hmivar" />
             </folder>
             <folder name="Page3.hmi">
               <file name="Definition.hmipagedef" id="Page3.hmi~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="Page3.hmi~Parameters~0000.hmiparams" />
-              <file name="Resources.locres" id="Page3.hmi~Resources~0000.locres" />
+              <file name="Definition.hmipagedef.locres" id="Page3.hmi~Definition~0001.locres" />
               <file name="Variables.hmivar" id="Page3.hmi~Variables~0000.hmivar" />
             </folder>
             <folder name="Page4.hmi">
               <file name="Definition.hmipagedef" id="Page4.hmi~Definition~0000.hmipagedef" />
               <file name="Parameters.hmiparams" id="Page4.hmi~Parameters~0000.hmiparams" />
-              <file name="Resources.locres" id="Page4.hmi~Resources~0000.locres" />
+              <file name="Definition.hmipagedef.locres" id="Page4.hmi~Definition~0001.locres" />
               <file name="Variables.hmivar" id="Page4.hmi~Variables~0000.hmivar" />
             </folder>
           </folder>
@@ -101,6 +101,7 @@
         <file name="Description.html" id="Main.pou~Description~0001.html" />
         <file name="Code.st" id="Main.pou~Code~0000.st" />
         <file name="Variables.var.locres" id="Main.pou~Variables.v~0000.locres" />
+        <file name="User.locres" id="Main.pou~User~0000.locres" />
       </folder>
       <folder name="Radioline1.jpg">
         <file name="Source" id="Radioline1.jp~Source~0002" />
@@ -125,23 +126,20 @@
         <file name="Definition" id="HMI Symbo~Definition~0000" />
         <file name="Parameters" id="HMI Symbo~Parameters~0000" />
         <file name="Thumbnail" id="HMI Symbol~Thumbnail~0000" />
+        <file name="Definition.locres" id="HMI Symbo~Definition~0001.locres" />
       </folder>
     </folder>
     <folder name="RecycleBin">
       <folder name="6c243c8a-e7a1-4a1a-a9b5-12ca09d6fa58">
-        <file name="6c243c8a-e7a1-4a1a-a9b5-12ca09d6fa58" id="6c243c8a-~6c243c8a-e~0000" />
         <folder name="WallE.jpg" />
       </folder>
       <folder name="2a7f50c3-3764-42d8-9130-f0d3ed5a46fd">
-        <file name="2a7f50c3-3764-42d8-9130-f0d3ed5a46fd" id="2a7f50c3-~2a7f50c3-3~0000" />
         <folder name="Radioline3.jpg" />
       </folder>
       <folder name="9de59dea-8e12-47e2-b951-096ec58a83e5">
-        <file name="9de59dea-8e12-47e2-b951-096ec58a83e5" id="9de59dea-~9de59dea-8~0000" />
         <folder name="Radioline2.jpg" />
       </folder>
       <folder name="625acac7-8645-4d7b-8dcf-955e53b3c08b">
-        <file name="625acac7-8645-4d7b-8dcf-955e53b3c08b" id="625acac7-~625acac7-8~0000" />
         <folder name="Radioline1.jpg" />
       </folder>
     </folder>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RestoreDataItem Version="1" DeletionDate="2020-08-28 15:20:06Z" DisplayName="Radioline2">
-    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="9de59dea-8e12-47e2-b951-096ec58a83e5" ParentId="d31eab2b-b1a0-4c93-bdaf-090bc38c49f4" PredecessorId="625acac7-8645-4d7b-8dcf-955e53b3c08b" Position="4" Kind="Type" />
-</RestoreDataItem>

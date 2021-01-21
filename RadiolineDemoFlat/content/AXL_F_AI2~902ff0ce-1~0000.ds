@@ -39,5 +39,6 @@
     <InstVal xPath="//Layer7[@uID='L7_1']/PN:OutputFrameID" Type="Ade.Fdcml.Core.Unsigned16">3</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/AXLF:NodeID" Type="Ade.Fdcml.Core.Unsigned32">1</InstVal>
   </DevInst>
 </DevInstDoc>

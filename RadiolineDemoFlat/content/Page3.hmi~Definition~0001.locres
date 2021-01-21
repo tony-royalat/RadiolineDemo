@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>122</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="Button1.Text">
+    <Values LanguageID="0" LocalValue="Out 1" />
+  </Resources>
+  <Resources ID="101" Name="Button1.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Out 1" />
+  </Resources>
+  <Resources ID="102" Name="Button2.Text">
+    <Values LanguageID="0" LocalValue="Out 2" />
+  </Resources>
+  <Resources ID="103" Name="Button2.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Out 2" />
+  </Resources>
+  <Resources ID="104" Name="Button3.Text">
+    <Values LanguageID="0" LocalValue="Out 3" />
+  </Resources>
+  <Resources ID="105" Name="Button3.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Out 3" />
+  </Resources>
+  <Resources ID="106" Name="Button4.Text">
+    <Values LanguageID="0" LocalValue="Out 4" />
+  </Resources>
+  <Resources ID="107" Name="Button4.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Out 4" />
+  </Resources>
+  <Resources ID="108" Name="Button5.Text">
+    <Values LanguageID="0" LocalValue="Out 5" />
+  </Resources>
+  <Resources ID="109" Name="Button5.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Out 5" />
+  </Resources>
+  <Resources ID="110" Name="Button6.Text">
+    <Values LanguageID="0" LocalValue="Out 6" />
+  </Resources>
+  <Resources ID="111" Name="Button6.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Out 6" />
+  </Resources>
+  <Resources ID="112" Name="Button7.Text">
+    <Values LanguageID="0" LocalValue="Out 7" />
+  </Resources>
+  <Resources ID="113" Name="Button7.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Out 7" />
+  </Resources>
+  <Resources ID="114" Name="Button8.Text">
+    <Values LanguageID="0" LocalValue="Out 8" />
+  </Resources>
+  <Resources ID="115" Name="Button8.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Out 8" />
+  </Resources>
+  <Resources ID="116" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="In 1" />
+  </Resources>
+  <Resources ID="117" Name="Text2.Text">
+    <Values LanguageID="0" LocalValue="In 2" />
+  </Resources>
+  <Resources ID="118" Name="Text3.Text">
+    <Values LanguageID="0" LocalValue="In 3" />
+  </Resources>
+  <Resources ID="119" Name="Text4.Text">
+    <Values LanguageID="0" LocalValue="In 4" />
+  </Resources>
+  <Resources ID="121" Name="NextButton_Page3.Text">
+    <Values LanguageID="0" LocalValue="Next" />
+  </Resources>
+</ResourcesDocument>
