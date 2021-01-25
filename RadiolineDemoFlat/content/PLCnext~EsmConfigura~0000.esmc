@@ -4,7 +4,7 @@
 		<Esm id="e1116540-a030-42f3-8ae1-59a8394ddf62" name="ESM1" cpuAffinity="1" timerInterval="500000" taskSchedulerMode="" comment="" readonly="False" />
 	</Esms>
 	<Tasks>
-		<Task id="ad3d5b7a-aed2-43b8-8676-387ef7372ef1" name="Cyclic100" taskType="CyclicTask" priority="0" intervalTime="100000000" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="e1116540-a030-42f3-8ae1-59a8394ddf62" readonly="False">
+		<Task id="ad3d5b7a-aed2-43b8-8676-387ef7372ef1" name="Cyclic10" taskType="CyclicTask" priority="0" intervalTime="10000000" watchdogTime="25000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="e1116540-a030-42f3-8ae1-59a8394ddf62" readonly="False">
 			<ProgramInstances>
 				<ProgramInstance id="13e65c24-4479-4f0c-b7a8-e1e2e1201d13" name="MainInstance" programType="Main" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
 			</ProgramInstances>

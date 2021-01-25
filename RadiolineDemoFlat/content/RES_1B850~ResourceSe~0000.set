@@ -25,8 +25,8 @@ RESOURCE PLC
 )}
 
 
-TASK Cyclic100 (INTERVAL := T#100ms, PRIORITY := 0) { Watchdog(T#100ms), Id('ad3d5b7a-aed2-43b8-8676-387ef7372ef1') };
+TASK Cyclic10 (INTERVAL := T#10ms, PRIORITY := 0) { Watchdog(T#25ms), Id('ad3d5b7a-aed2-43b8-8676-387ef7372ef1') };
 
-PROGRAM MainInstance WITH Cyclic100 : Main { Id('13e65c24-4479-4f0c-b7a8-e1e2e1201d13') };
+PROGRAM MainInstance WITH Cyclic10 : Main { Id('13e65c24-4479-4f0c-b7a8-e1e2e1201d13') };
 
 END_RESOURCE

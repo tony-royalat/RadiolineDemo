@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DataListDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DataList.xsd" Version="1.00">
-  <DataList Id="a9474584-be9e-4435-b62f-0fce92314184" ConfigurationUri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e6438cfe-8a87-4c9d-8c21-9eb8918e0066" PlcIdentifier="8f05a076-b9e2-46cb-a143-161384c4e175" TargetAttributes="PlcNext">
+  <DataList Id="a9474584-be9e-4435-b62f-0fce92314184" ConfigurationUri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e6438cfe-8a87-4c9d-8c21-9eb8918e0066" PlcIdentifier="8f05a076-b9e2-46cb-a143-161384c4e175" TargetAttributes="PlcNext" UICulture="en-US">
     <Datum Uuid="b589d65a-8a7a-4028-bc02-c6f1250cac60">
       <FunctionText />
       <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="b4f6be3e-4cd5-4706-8b14-230e96ce484a">
@@ -9,7 +9,7 @@
         <DataType>Bitstring8</DataType>
         <Offset>1.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / ~DI8</DisplayName>
+        <DisplayName>dio-1 / ~DI8</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -23,7 +23,7 @@
         <DataType>Bitstring8</DataType>
         <Offset>1.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / ~DO8</DisplayName>
+        <DisplayName>dio-1 / ~DO8</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -37,7 +37,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / IN00</DisplayName>
+        <DisplayName>dio-1 / IN00</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -54,7 +54,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH1_IN</DisplayName>
+        <DisplayName>CH1_IN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="a4ce230c-86a8-4acf-a985-17a66d9b0808" SourceId="">
@@ -72,7 +72,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.1</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / IN01</DisplayName>
+        <DisplayName>dio-1 / IN01</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -89,7 +89,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH2_IN</DisplayName>
+        <DisplayName>CH2_IN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="e252d989-c271-47ea-a378-aa058664d3bc" SourceId="">
@@ -107,7 +107,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.2</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / IN02</DisplayName>
+        <DisplayName>dio-1 / IN02</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -124,7 +124,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH3_IN</DisplayName>
+        <DisplayName>CH3_IN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="6e32a9af-178d-4647-bff5-0c0090fc9dcd" SourceId="">
@@ -142,7 +142,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.3</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / IN03</DisplayName>
+        <DisplayName>dio-1 / IN03</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -159,7 +159,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH4_IN</DisplayName>
+        <DisplayName>CH4_IN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="f11494d3-bb67-4562-b81f-b6cbefc21a31" SourceId="">
@@ -177,7 +177,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.4</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / IN04</DisplayName>
+        <DisplayName>dio-1 / IN04</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -191,7 +191,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.5</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / IN05</DisplayName>
+        <DisplayName>dio-1 / IN05</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -205,7 +205,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.6</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / IN06</DisplayName>
+        <DisplayName>dio-1 / IN06</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -219,7 +219,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.7</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / IN07</DisplayName>
+        <DisplayName>dio-1 / IN07</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -239,7 +239,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.SignalStrentghPercent</DisplayName>
+        <DisplayName>SignalStrentghPercent</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="4aaf7e3e-30b0-4e3b-b51a-9000967897cb" SourceId="">
@@ -257,7 +257,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / OUT00</DisplayName>
+        <DisplayName>dio-1 / OUT00</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -274,7 +274,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH1_OUT</DisplayName>
+        <DisplayName>CH1_OUT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="39574bb8-b74b-4e44-8a52-dabf35355d91" SourceId="">
@@ -292,7 +292,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.1</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / OUT01</DisplayName>
+        <DisplayName>dio-1 / OUT01</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -309,7 +309,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH2_OUT</DisplayName>
+        <DisplayName>CH2_OUT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="f2b27366-9bbd-4e8d-b063-b9882d862edb" SourceId="">
@@ -327,7 +327,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.2</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / OUT02</DisplayName>
+        <DisplayName>dio-1 / OUT02</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -344,7 +344,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH3_OUT</DisplayName>
+        <DisplayName>CH3_OUT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="88f84432-5a3b-4edc-96f8-39bea4ff3318" SourceId="">
@@ -362,7 +362,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.3</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / OUT03</DisplayName>
+        <DisplayName>dio-1 / OUT03</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -379,7 +379,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH4_OUT</DisplayName>
+        <DisplayName>CH4_OUT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="8ed20c07-3c33-47be-b72b-3e985ad30809" SourceId="">
@@ -397,7 +397,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.4</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / OUT04</DisplayName>
+        <DisplayName>dio-1 / OUT04</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -414,7 +414,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH5_OUT</DisplayName>
+        <DisplayName>CH5_OUT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="2a01b5e9-a457-4ac4-9c53-5ca69f46dcbd" SourceId="">
@@ -432,7 +432,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.5</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / OUT05</DisplayName>
+        <DisplayName>dio-1 / OUT05</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -449,7 +449,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH6_OUT</DisplayName>
+        <DisplayName>CH6_OUT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="c2ab069b-f64d-43e5-878c-7c2a556f55bc" SourceId="">
@@ -467,7 +467,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.6</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / OUT06</DisplayName>
+        <DisplayName>dio-1 / OUT06</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -484,7 +484,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH7_OUT</DisplayName>
+        <DisplayName>CH7_OUT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="be92995b-274f-46ef-baa7-20d9a213b428" SourceId="">
@@ -502,7 +502,7 @@
         <DataType>BOOL</DataType>
         <Offset>1.7</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / dio-1 / OUT07</DisplayName>
+        <DisplayName>dio-1 / OUT07</DisplayName>
         <NodeId>0</NodeId>
         <InputFrameId>0</InputFrameId>
         <OutputFrameId>1</OutputFrameId>
@@ -519,7 +519,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.CH8_OUT</DisplayName>
+        <DisplayName>CH8_OUT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
       <Role TypeName="HmiTag" ObjectId="e04d6064-64f2-4551-8a0b-343c1f6d1e2d" SourceId="">
@@ -537,7 +537,7 @@
         <DataType>Bitstring32</DataType>
         <Offset>0.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / aio-1 / ~AI32</DisplayName>
+        <DisplayName>aio-1 / ~AI32</DisplayName>
         <NodeId>1</NodeId>
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
@@ -551,7 +551,7 @@
         <DataType>Bitstring16</DataType>
         <Offset>0.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / aio-1 / IN01</DisplayName>
+        <DisplayName>aio-1 / IN01</DisplayName>
         <NodeId>1</NodeId>
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
@@ -568,7 +568,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.SignalStrengthVoltage</DisplayName>
+        <DisplayName>SignalStrengthVoltage</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
     </Datum>
@@ -580,7 +580,7 @@
         <DataType>Bitstring16</DataType>
         <Offset>2.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / aio-1 / IN02</DisplayName>
+        <DisplayName>aio-1 / IN02</DisplayName>
         <NodeId>1</NodeId>
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
@@ -594,7 +594,7 @@
         <DataType>Bitstring32</DataType>
         <Offset>0.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / aio-1 / ~AQ32</DisplayName>
+        <DisplayName>aio-1 / ~AQ32</DisplayName>
         <NodeId>1</NodeId>
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
@@ -608,7 +608,7 @@
         <DataType>Bitstring16</DataType>
         <Offset>0.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / aio-1 / OUT01</DisplayName>
+        <DisplayName>aio-1 / OUT01</DisplayName>
         <NodeId>1</NodeId>
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
@@ -622,7 +622,7 @@
         <DataType>Bitstring16</DataType>
         <Offset>2.0</Offset>
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / aio-1 / OUT02</DisplayName>
+        <DisplayName>aio-1 / OUT02</DisplayName>
         <NodeId>1</NodeId>
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
@@ -642,7 +642,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment>Higher level PLC in RUN</Comment>
-        <DisplayName>axc-f-1152 / PLC.PND_S1_PLC_RUN</DisplayName>
+        <DisplayName>PND_S1_PLC_RUN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -653,7 +653,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PND_S1_PLC_RUN</DisplayName>
+        <DisplayName>Profinet / PND_S1_PLC_RUN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -671,7 +671,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment>Connection to Profinet-Controller</Comment>
-        <DisplayName>axc-f-1152 / PLC.PND_S1_VALID_DATA_CYCLE</DisplayName>
+        <DisplayName>PND_S1_VALID_DATA_CYCLE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -682,7 +682,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PND_S1_VALID_DATA_CYCLE</DisplayName>
+        <DisplayName>Profinet / PND_S1_VALID_DATA_CYCLE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -700,7 +700,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment>IOP status of the higher-level control system</Comment>
-        <DisplayName>axc-f-1152 / PLC.PND_S1_OUTPUT_STATUS_GOOD</DisplayName>
+        <DisplayName>PND_S1_OUTPUT_STATUS_GOOD</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -711,7 +711,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PND_S1_OUTPUT_STATUS_GOOD</DisplayName>
+        <DisplayName>Profinet / PND_S1_OUTPUT_STATUS_GOOD</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -729,7 +729,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment>IOC status of the higher-level control system</Comment>
-        <DisplayName>axc-f-1152 / PLC.PND_S1_INPUT_STATUS_GOOD</DisplayName>
+        <DisplayName>PND_S1_INPUT_STATUS_GOOD</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -740,7 +740,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PND_S1_INPUT_STATUS_GOOD</DisplayName>
+        <DisplayName>Profinet / PND_S1_INPUT_STATUS_GOOD</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -758,7 +758,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment>Process data length</Comment>
-        <DisplayName>axc-f-1152 / PLC.PND_S1_DATA_LENGTH</DisplayName>
+        <DisplayName>PND_S1_DATA_LENGTH</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -769,7 +769,7 @@
         <DataType>Bitstring16</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PND_S1_DATA_LENGTH</DisplayName>
+        <DisplayName>Profinet / PND_S1_DATA_LENGTH</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -787,7 +787,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment>Output process data</Comment>
-        <DisplayName>axc-f-1152 / PLC.PND_S1_OUTPUTS</DisplayName>
+        <DisplayName>PND_S1_OUTPUTS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -798,7 +798,7 @@
         <DataType>Octetstring[512]</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PND_S1_OUTPUTS</DisplayName>
+        <DisplayName>Profinet / PND_S1_OUTPUTS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -816,7 +816,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment>Input process data</Comment>
-        <DisplayName>axc-f-1152 / PLC.PND_S1_INPUTS</DisplayName>
+        <DisplayName>PND_S1_INPUTS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -827,7 +827,7 @@
         <DataType>Octetstring[512]</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PND_S1_INPUTS</DisplayName>
+        <DisplayName>Profinet / PND_S1_INPUTS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -845,7 +845,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PND_IO_DRIVEN_BY_PLC</DisplayName>
+        <DisplayName>PND_IO_DRIVEN_BY_PLC</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -856,7 +856,7 @@
         <DataType>Signed16</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PND_IO_DRIVEN_BY_PLC</DisplayName>
+        <DisplayName>Profinet / PND_IO_DRIVEN_BY_PLC</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -874,7 +874,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_HI</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -885,7 +885,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_HI</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -903,7 +903,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_LOW</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -914,7 +914,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_LOW</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -932,7 +932,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_PARAM_REG_HI</DisplayName>
+        <DisplayName>AXIO_DIAG_PARAM_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -943,7 +943,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_PARAM_REG_HI</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_PARAM_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -961,7 +961,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_PARAM_REG_LOW</DisplayName>
+        <DisplayName>AXIO_DIAG_PARAM_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -972,7 +972,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_PARAM_REG_LOW</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_PARAM_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -990,7 +990,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_PARAM_2_REG_HI</DisplayName>
+        <DisplayName>AXIO_DIAG_PARAM_2_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1001,7 +1001,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_PARAM_2_REG_HI</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_PARAM_2_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1019,7 +1019,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_PARAM_2_REG_LOW</DisplayName>
+        <DisplayName>AXIO_DIAG_PARAM_2_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1030,7 +1030,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_PARAM_2_REG_LOW</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_PARAM_2_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1048,7 +1048,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_PF</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_PF</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1059,7 +1059,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_PF</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_PF</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1077,7 +1077,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_BUS</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_BUS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1088,7 +1088,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_BUS</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_BUS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1106,7 +1106,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_RUN</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_RUN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1117,7 +1117,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_RUN</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_RUN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1135,7 +1135,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_ACT</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_ACT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1146,7 +1146,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_ACT</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_ACT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1164,7 +1164,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_RDY</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_RDY</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1175,7 +1175,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_RDY</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_RDY</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1193,7 +1193,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_SYSFAIL</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_SYSFAIL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1204,7 +1204,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_SYSFAIL</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_SYSFAIL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1222,7 +1222,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.AXIO_DIAG_STATUS_REG_PW</DisplayName>
+        <DisplayName>AXIO_DIAG_STATUS_REG_PW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1233,7 +1233,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Axioline F / AXIO_DIAG_STATUS_REG_PW</DisplayName>
+        <DisplayName>Axioline F / AXIO_DIAG_STATUS_REG_PW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1251,7 +1251,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_HI</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1262,7 +1262,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_HI</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1280,7 +1280,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_LOW</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1291,7 +1291,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_LOW</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1309,7 +1309,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_SYSFAIL</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_SYSFAIL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1320,7 +1320,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_SYSFAIL</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_SYSFAIL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1338,7 +1338,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_WARN</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_WARN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1349,7 +1349,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_WARN</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_WARN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1367,7 +1367,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_QUAL</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_QUAL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1378,7 +1378,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_QUAL</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_QUAL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1396,7 +1396,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_USER</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_USER</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1407,7 +1407,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_USER</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_USER</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1425,7 +1425,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_PF</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_PF</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1436,7 +1436,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_PF</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_PF</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1454,7 +1454,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_BUS</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_BUS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1465,7 +1465,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_BUS</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_BUS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1483,7 +1483,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_CTRL</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_CTRL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1494,7 +1494,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_CTRL</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_CTRL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1512,7 +1512,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_DTC</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_DTC</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1523,7 +1523,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_DTC</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_DTC</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1541,7 +1541,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_RUN</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_RUN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1552,7 +1552,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_RUN</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_RUN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1570,7 +1570,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_ACT</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_ACT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1581,7 +1581,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_ACT</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_ACT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1599,7 +1599,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_STATUS_REG_RDY</DisplayName>
+        <DisplayName>IB_DIAG_STATUS_REG_RDY</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1610,7 +1610,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_RDY</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_RDY</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1628,7 +1628,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_PARAM_REG_HI</DisplayName>
+        <DisplayName>IB_DIAG_PARAM_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1639,7 +1639,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_REG_HI</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1657,7 +1657,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_PARAM_REG_LOW</DisplayName>
+        <DisplayName>IB_DIAG_PARAM_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1668,7 +1668,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_REG_LOW</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1686,7 +1686,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_PARAM_2_REG_HI</DisplayName>
+        <DisplayName>IB_DIAG_PARAM_2_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1697,7 +1697,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_2_REG_HI</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_2_REG_HI</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1715,7 +1715,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IB_DIAG_PARAM_2_REG_LOW</DisplayName>
+        <DisplayName>IB_DIAG_PARAM_2_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1726,7 +1726,7 @@
         <DataType>Bitstring8</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_2_REG_LOW</DisplayName>
+        <DisplayName>AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_2_REG_LOW</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1744,7 +1744,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.ESM_DATA</DisplayName>
+        <DisplayName>ESM_DATA</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1755,7 +1755,7 @@
         <DataType>ESM_DAT</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / PLCnext / ESM_DATA</DisplayName>
+        <DisplayName>PLCnext / ESM_DATA</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1773,7 +1773,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.RTC</DisplayName>
+        <DisplayName>RTC</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1784,7 +1784,7 @@
         <DataType>RTC_TYPE</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / PLCnext / RTC</DisplayName>
+        <DisplayName>PLCnext / RTC</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1802,7 +1802,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.DEVICE_STATE</DisplayName>
+        <DisplayName>DEVICE_STATE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1813,7 +1813,7 @@
         <DataType>DEVICE_STATE_2152_TYPE</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / PLCnext / DEVICE_STATE</DisplayName>
+        <DisplayName>PLCnext / DEVICE_STATE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1831,7 +1831,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.USER_PARTITION</DisplayName>
+        <DisplayName>USER_PARTITION</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1842,7 +1842,7 @@
         <DataType>PARTITION_INFO</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / PLCnext / USER_PARTITION</DisplayName>
+        <DisplayName>PLCnext / USER_PARTITION</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1860,7 +1860,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_SYSTEM_BF</DisplayName>
+        <DisplayName>PNIO_SYSTEM_BF</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1871,7 +1871,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_SYSTEM_BF</DisplayName>
+        <DisplayName>Profinet / PNIO_SYSTEM_BF</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1889,7 +1889,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_SYSTEM_SF</DisplayName>
+        <DisplayName>PNIO_SYSTEM_SF</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1900,7 +1900,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_SYSTEM_SF</DisplayName>
+        <DisplayName>Profinet / PNIO_SYSTEM_SF</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1918,7 +1918,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_MAINTENANCE_DEMANDED</DisplayName>
+        <DisplayName>PNIO_MAINTENANCE_DEMANDED</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1929,7 +1929,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_MAINTENANCE_DEMANDED</DisplayName>
+        <DisplayName>Profinet / PNIO_MAINTENANCE_DEMANDED</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1947,7 +1947,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_MAINTENANCE_REQUIRED</DisplayName>
+        <DisplayName>PNIO_MAINTENANCE_REQUIRED</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1958,7 +1958,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_MAINTENANCE_REQUIRED</DisplayName>
+        <DisplayName>Profinet / PNIO_MAINTENANCE_REQUIRED</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -1976,7 +1976,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_CONFIG_STATUS</DisplayName>
+        <DisplayName>PNIO_CONFIG_STATUS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -1987,7 +1987,7 @@
         <DataType>Bitstring16</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_CONFIG_STATUS</DisplayName>
+        <DisplayName>Profinet / PNIO_CONFIG_STATUS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -2005,7 +2005,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_CONFIG_STATUS_ACTIVE</DisplayName>
+        <DisplayName>PNIO_CONFIG_STATUS_ACTIVE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2016,7 +2016,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_CONFIG_STATUS_ACTIVE</DisplayName>
+        <DisplayName>Profinet / PNIO_CONFIG_STATUS_ACTIVE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -2034,7 +2034,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_CONFIG_STATUS_READY</DisplayName>
+        <DisplayName>PNIO_CONFIG_STATUS_READY</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2045,7 +2045,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_CONFIG_STATUS_READY</DisplayName>
+        <DisplayName>Profinet / PNIO_CONFIG_STATUS_READY</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -2063,7 +2063,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_CONFIG_STATUS_CFG_FAULT</DisplayName>
+        <DisplayName>PNIO_CONFIG_STATUS_CFG_FAULT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2074,7 +2074,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_CONFIG_STATUS_CFG_FAULT</DisplayName>
+        <DisplayName>Profinet / PNIO_CONFIG_STATUS_CFG_FAULT</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -2092,7 +2092,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.PNIO_FORCE_FAILSAFE</DisplayName>
+        <DisplayName>PNIO_FORCE_FAILSAFE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2103,7 +2103,7 @@
         <DataType>BOOL</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / Profinet / PNIO_FORCE_FAILSAFE</DisplayName>
+        <DisplayName>Profinet / PNIO_FORCE_FAILSAFE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -2121,7 +2121,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.IP_ACTIVE_SOCKETS</DisplayName>
+        <DisplayName>IP_ACTIVE_SOCKETS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2142,7 +2142,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.TLS_ACTIVE_SOCKETS</DisplayName>
+        <DisplayName>TLS_ACTIVE_SOCKETS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2163,7 +2163,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.HMI_STATUS</DisplayName>
+        <DisplayName>HMI_STATUS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2174,7 +2174,7 @@
         <DataType>HMI_STATUS_TYPE</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / HMI Webserver / HMI_STATUS</DisplayName>
+        <DisplayName>HMI Webserver / HMI_STATUS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -2192,7 +2192,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.HMI_CONTROL</DisplayName>
+        <DisplayName>HMI_CONTROL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2203,7 +2203,7 @@
         <DataType>HMI_CONTROL_TYPE</DataType>
         <Offset />
         <IsSafe>False</IsSafe>
-        <DisplayName>axc-f-1152 / HMI Webserver / HMI_CONTROL</DisplayName>
+        <DisplayName>HMI Webserver / HMI_CONTROL</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
       </Role>
     </Datum>
@@ -2221,7 +2221,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.EIPD_INPUTS</DisplayName>
+        <DisplayName>EIPD_INPUTS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2250,7 +2250,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.EIPD_OUTPUTS</DisplayName>
+        <DisplayName>EIPD_OUTPUTS</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2279,7 +2279,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.EIPD_VALID_DATA_CYCLE</DisplayName>
+        <DisplayName>EIPD_VALID_DATA_CYCLE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2308,7 +2308,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.EIPD_PEER_IDLE</DisplayName>
+        <DisplayName>EIPD_PEER_IDLE</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2337,7 +2337,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.EIPD_PEER_RUN</DisplayName>
+        <DisplayName>EIPD_PEER_RUN</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2366,7 +2366,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.EIPD_OUTPUTS_LENGTH</DisplayName>
+        <DisplayName>EIPD_OUTPUTS_LENGTH</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2395,7 +2395,7 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>axc-f-1152 / PLC.EIPD_INPUTS_LENGTH</DisplayName>
+        <DisplayName>EIPD_INPUTS_LENGTH</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
@@ -2422,7 +2422,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.0</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / ~DO8</DisplayName>
+        <DisplayName>dio-1 / ~DO8</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="35dbad2e-b4e7-46c7-b0a1-0e49bebd1931">
@@ -2437,7 +2437,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.0</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / OUT00</DisplayName>
+        <DisplayName>dio-1 / OUT00</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="092e6150-c960-4a4a-a5c8-aff2c098c44b">
@@ -2452,7 +2452,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.1</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / OUT01</DisplayName>
+        <DisplayName>dio-1 / OUT01</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="8cfd84e9-cdcb-42e0-900a-8b28b54f3b3d">
@@ -2467,7 +2467,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.2</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / OUT02</DisplayName>
+        <DisplayName>dio-1 / OUT02</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="244cff6f-6d23-47a4-a476-4acc355e1b6c">
@@ -2482,7 +2482,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.3</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / OUT03</DisplayName>
+        <DisplayName>dio-1 / OUT03</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="e6ff1425-43ef-4159-b7c2-ec468cb99524">
@@ -2497,7 +2497,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.4</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / OUT04</DisplayName>
+        <DisplayName>dio-1 / OUT04</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="4433fde9-594a-4306-a54f-f8d6f83d2e09">
@@ -2512,7 +2512,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.5</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / OUT05</DisplayName>
+        <DisplayName>dio-1 / OUT05</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="68b29a3a-fb10-439f-9d5d-217e1fb7b437">
@@ -2527,7 +2527,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.6</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / OUT06</DisplayName>
+        <DisplayName>dio-1 / OUT06</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="c279e742-6d24-44ba-ada4-c25d74331bed">
@@ -2542,7 +2542,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.7</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / OUT07</DisplayName>
+        <DisplayName>dio-1 / OUT07</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="b88b4d12-a97d-4025-82fd-90760cd30b2d">
@@ -2557,7 +2557,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.0</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / ~DI8</DisplayName>
+        <DisplayName>dio-1 / ~DI8</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="5f899c33-9420-46c0-821d-600a5b933449">
@@ -2572,7 +2572,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.0</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / IN00</DisplayName>
+        <DisplayName>dio-1 / IN00</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="78f8c237-2ef6-4585-a6e8-fd1861afa78b">
@@ -2587,7 +2587,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.1</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / IN01</DisplayName>
+        <DisplayName>dio-1 / IN01</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="9a343586-a773-4950-b66a-61c02051cb5c">
@@ -2602,7 +2602,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.2</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / IN02</DisplayName>
+        <DisplayName>dio-1 / IN02</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="36e38a30-fe62-4adf-a841-c180cae17463">
@@ -2617,7 +2617,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.3</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / IN03</DisplayName>
+        <DisplayName>dio-1 / IN03</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="6b5708f3-c24c-4748-a400-4a4aa39cdc13">
@@ -2632,7 +2632,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.4</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / IN04</DisplayName>
+        <DisplayName>dio-1 / IN04</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="1bd04e03-ba55-485c-b5ba-363203450d33">
@@ -2647,7 +2647,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.5</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / IN05</DisplayName>
+        <DisplayName>dio-1 / IN05</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="c4b8672c-c285-4633-ada4-e9aee1a20dd4">
@@ -2662,7 +2662,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.6</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / IN06</DisplayName>
+        <DisplayName>dio-1 / IN06</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="66220e97-55a2-4f64-be53-547ede3a5a04">
@@ -2677,7 +2677,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>1.7</Offset>
         <NodeId>0</NodeId>
-        <DisplayName>axc-f-1152 / dio-1 / IN07</DisplayName>
+        <DisplayName>dio-1 / IN07</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="5a12710d-aab4-4449-9ddc-35f44c8bc8d1">
@@ -2692,7 +2692,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>0.0</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>axc-f-1152 / aio-1 / ~AQ32</DisplayName>
+        <DisplayName>aio-1 / ~AQ32</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="aff88225-3558-428f-9110-eee835da75be">
@@ -2707,7 +2707,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>0.0</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>axc-f-1152 / aio-1 / OUT01</DisplayName>
+        <DisplayName>aio-1 / OUT01</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="86ce682e-e04c-423c-af3a-653764596463">
@@ -2722,7 +2722,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>2.0</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>axc-f-1152 / aio-1 / OUT02</DisplayName>
+        <DisplayName>aio-1 / OUT02</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="b090167e-d659-4cc8-88c5-2c4a19f062db">
@@ -2737,7 +2737,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>0.0</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>axc-f-1152 / aio-1 / ~AI32</DisplayName>
+        <DisplayName>aio-1 / ~AI32</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="a04f89cf-212f-41aa-89ed-b716071978ef">
@@ -2752,7 +2752,7 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>0.0</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>axc-f-1152 / aio-1 / IN01</DisplayName>
+        <DisplayName>aio-1 / IN01</DisplayName>
       </Role>
     </Datum>
     <Datum Uuid="0646b381-a648-4c9a-bf5d-1c13f384641e">
@@ -2767,7 +2767,79 @@
         <Program>Arp.Io.AxlC</Program>
         <Offset>2.0</Offset>
         <NodeId>1</NodeId>
-        <DisplayName>axc-f-1152 / aio-1 / IN02</DisplayName>
+        <DisplayName>aio-1 / IN02</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="d519ea0e-2162-43c2-9177-cfdc78996754">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="f93796aa-9b5d-427e-a9fb-f62d5f6db7ea" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>AutomateCycle</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>AutomateCycle</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="8ba73a76-eb55-4882-8173-5bcdbb3f50dd" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>AutomateCycle</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="3c005524-db8b-45e1-8530-83111c80f89e">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="8a62f3b7-2446-4afe-a041-c5b8ce305c6b" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CycleSpeed</Name>
+        <Usage>Global</Usage>
+        <DataType>INT</DataType>
+        <Address />
+        <InitValue>INT#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>CycleSpeed</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="ccebb404-05ad-4981-8cdb-fb2bba2e5c96" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CycleSpeed</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="a4433cbb-4e7d-47d8-89b2-6912558acf0d">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="819ba0e3-76f4-419d-b1af-d944bd9ae38d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f">
+        <Name>CycleSpeedText</Name>
+        <Usage>Global</Usage>
+        <DataType>STRING</DataType>
+        <Address />
+        <InitValue>''</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>CycleSpeedText</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="f0626afc-0e50-4086-8e9c-f56780c5e700" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>CycleSpeedText</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <RoleGroupList RoleTypeName="Variable">
@@ -2786,6 +2858,9 @@
         <RoleDatumUuid>0af8bc64-1802-462e-93c9-8dfedcbcea43</RoleDatumUuid>
         <RoleDatumUuid>14bcdc56-4c2b-4703-ac4e-ac7cd25b296f</RoleDatumUuid>
         <RoleDatumUuid>5609eecf-ff03-48af-a8fe-5a7fd8ebc472</RoleDatumUuid>
+        <RoleDatumUuid>d519ea0e-2162-43c2-9177-cfdc78996754</RoleDatumUuid>
+        <RoleDatumUuid>3c005524-db8b-45e1-8530-83111c80f89e</RoleDatumUuid>
+        <RoleDatumUuid>a4433cbb-4e7d-47d8-89b2-6912558acf0d</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/db3a7d01-e159-4019-ab38-4246edbaf76f" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>6c2cd1e7-1a67-4198-b265-7207b4c86def</RoleDatumUuid>

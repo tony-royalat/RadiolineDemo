@@ -16,3 +16,18 @@ VAR_EXTERNAL
     CH3_IN : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('cc98e83d-fe90-453b-be4b-4857150d36f8')};
     CH4_IN : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('1779a7dc-a0ea-4155-9340-866d14acfdf9')};
 END_VAR
+
+VAR
+    count : INT { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('9705f6d3-947b-4231-ad86-53eab519f259')};
+    wait : TON { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('e2a2942c-534a-487c-af62-f70831aa6087')};
+END_VAR
+
+VAR_EXTERNAL
+    AutomateCycle : BOOL { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('2fdd4af1-f872-47ce-a302-f33d47849d33')};
+    CycleSpeed : INT { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('b4e84bbc-599f-4e77-b018-7548b6bbad95')};
+    CycleSpeedText : STRING { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('b091ff8e-3c9b-47d2-b02a-7fd98fb22e93')};
+END_VAR
+
+VAR
+    WaitTime : TIME { CustomGroupReference('184de154-61a7-477f-80ab-32453d93bb64') } {Id('ca7b99a8-fe09-40b5-acdb-6b88102df237')};
+END_VAR
